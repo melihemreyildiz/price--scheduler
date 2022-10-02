@@ -1,0 +1,6 @@
+.idea
+/.idea/
+**/migrations
+**/__pycache__
+media
+venv
