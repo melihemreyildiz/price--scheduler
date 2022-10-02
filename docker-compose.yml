@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  backend:
+    build: .
+    volumes:
+      - .:/backend
+    ports:
+      - "0.0.0.0:8000:8000"
