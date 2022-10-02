@@ -4,8 +4,8 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 FROM django
-COPY . /backend
-WORKDIR /backend/
+COPY . /
+WORKDIR /
 RUN python manage.py migrate
 RUN python manage.py makemigrations project
 RUN python manage.py migrate
