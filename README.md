@@ -22,7 +22,7 @@ Docker Harici Kurulum
 
 Docker:
 
-    $ docker-compose up -d (interactive shell)
+    $ docker-compose up --build (interactive shell)
     $ docker-compose down (durdurmak için)
 
 
