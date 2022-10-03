@@ -26,7 +26,7 @@
     
     Docker:
 
-      $ docker-compose up --build (interactive shell)
+      $ docker-compose up --build
       $ docker-compose down (durdurmak için)
 
 
